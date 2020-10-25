@@ -2,10 +2,15 @@ body {
     background:#023859;
     font-family:  Arial, Helvetica, sans-serif;
 }
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+}
 .assignment{
-    display:flex;
+    width: 20%;
     padding: 10px;
     margin: 20px;
+    margin-bottom: 30px;
     background:#8C695D ;
     border-radius: 30px;
     box-shadow: 5px 10px #888888;
@@ -13,9 +18,12 @@ body {
 }
 .assignment img{
     width: 100px;
+    height: 100px;
     padding:10px;
     margin-right: 10px;
     border-radius: 30px;
+    display: block;
+    margin: auto;
 }
 h1 {
     color:#8C695D;
